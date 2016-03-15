@@ -1,6 +1,6 @@
 package MavenJenkinsTest.MavenJenkins;
 
-import junit.framework.Assert;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class TestApp1 {
@@ -8,7 +8,7 @@ public class TestApp1 {
 	@Test
 	public void testPrintHelloWorld() {
 
-		Assert.assertEquals(App.getHelloWorld(), "Hello World");
+		assertEquals(App.getHelloWorld(), "Hello World");
 	}
 
 	}
