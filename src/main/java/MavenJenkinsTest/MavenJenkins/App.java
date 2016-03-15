@@ -23,4 +23,8 @@ public class App
 		return "Hello World 2";
 
 	}
+	
+	public static int getCalculation(int x, int y) {
+		return x * y;
+	}
 }
