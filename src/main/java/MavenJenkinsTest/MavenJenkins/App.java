@@ -6,8 +6,6 @@ package MavenJenkinsTest.MavenJenkins;
  */
 public class App 
 {		
-	private String test = "test";
-	
 	
 	public static void main(String[] args) {
 
