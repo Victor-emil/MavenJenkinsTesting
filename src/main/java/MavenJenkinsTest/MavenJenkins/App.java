@@ -6,7 +6,7 @@ package MavenJenkinsTest.MavenJenkins;
  */
 public class App 
 {	
-	
+	private String hest = "";
 	
 	public static void main(String[] args) {
 
